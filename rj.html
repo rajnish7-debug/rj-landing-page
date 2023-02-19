@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<h1>Welcome to my landing page</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>About Me</h2>
+			<p><h5>I'm Rajnish Kumar and <span>Web Developer</span></h5></p>
+		</section>
+
+		<section>
+			<h2>Services</h2>
+			<ul>
+				<li>Web Design</li>
+				<li>Front-end Development</li>
+				<li>Search Engine Optimization</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Contact</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright &copy; 2023</p>
+	</footer>
+</body>
+</html>
